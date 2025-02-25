@@ -1,11 +1,11 @@
 package org.lessons.java.shop;
 
 public class Prodotto {
-    int codice;
-    String nome;
-    String descrizione;
-    float prezzo;
-    int iva;
+    private int codice;
+    private String nome;
+    private String descrizione;
+    private float prezzo;
+    private int iva;
 
     public Prodotto(){};
 
@@ -33,13 +33,10 @@ public class Prodotto {
         return this.descrizione;
     }
 
-
     public void setName(String nome){
         this.nome = nome;
     }
-    public void setCodice(int codice){
-        this.codice = codice;
-    }
+
     public void setPrezzo(float prezzo){
         this.prezzo = prezzo;
     }

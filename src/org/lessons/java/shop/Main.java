@@ -29,15 +29,6 @@ public class Main {
         for (Prodotto prodotto : products) {
             System.out.println(prodotto.toString() + "\n");
         }
-        
 
-        //esemempio base 
-        Prodotto birra = new Prodotto();
-        birra.setCodice(345);
-        birra.setDescrizione("bevanda alcolica");
-        birra.setName("Birra");
-        birra.setIva(2);
-        birra.setPrezzo(1.20f);
-        
     }
 }
