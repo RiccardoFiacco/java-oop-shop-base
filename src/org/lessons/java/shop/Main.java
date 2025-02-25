@@ -23,7 +23,7 @@ public class Main {
 
         //carico l'array con le istanze della classe prodotto
         for (int i = 0; i < productsName.length; i++) {
-            products[i]= new Prodotto(r.nextInt(9999), productsName[i], descriptions[i], prices[i], r.nextInt(5));
+            products[i]= new Prodotto(productsName[i], descriptions[i], prices[i], r.nextInt(5));
         }
         //stampo tutti i prodotti dentro l'array
         for (Prodotto prodotto : products) {
